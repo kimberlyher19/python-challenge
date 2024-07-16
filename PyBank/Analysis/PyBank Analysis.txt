@@ -31,7 +31,7 @@ with open(budget_data_csv, 'r') as csvfile:
     greatest_increase = {"date": "", "amount": 0}
     greatest_decrease = {"date": "", "amount": 0}
     
-    # Loop through the rest of the file
+    # Read through the rest of the file
     for row in csv_reader:
         date_count += 1
         second_month = int(row[1])
