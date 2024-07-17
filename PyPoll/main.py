@@ -30,6 +30,7 @@ with open(election_data_csv, 'r') as csvfile:
     Candidate_Winner = ""
     Greatest_Votes = 0
 
+    # Print results
     print(f"Total Votes: {Votes_Total}")
     print("-------------------------------")
     for Candidate, Votes in Candidate_Votes.items():
